@@ -1,0 +1,1 @@
+from polls.celery import app as celery_app
