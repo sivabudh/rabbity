@@ -122,7 +122,7 @@ STATIC_URL = '/static/'
 
 
 # Celery
-BROKER_URL = 'amqp://103.245.115.12:5442'
+BROKER_URL = 'amqp://localhost:5672'
 CELERY_RESULT_BACKEND = 'rpc://'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
